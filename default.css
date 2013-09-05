@@ -59,6 +59,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccefff', end
     height: 120px;
     background: url(images/smallcrest.png) no-repeat left top;    
     margin: 10px auto 0 auto;
+    position: relative;
+}
+
+a.facebook {
+    border-bottom:0px;
+    position:absolute;
+    top:0;
+    right:0;
+    padding:0;
+    margin:0;
+    margin-right:-37px;
+    margin-top:-27px;
 }
 
 .logo h1 {
@@ -69,9 +81,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccefff', end
 }
 
 .logo p {
-	margin: 0 0 0 133px;
+	margin: 3px 0 0 133px;
     font-size: 90%;
+    font-weight: normal;
 }
+
+
 
 .menu {
     width: 650px;
